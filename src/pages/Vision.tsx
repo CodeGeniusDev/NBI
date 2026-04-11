@@ -62,7 +62,7 @@ const Vision = () => {
   return (
     <>
       {/* Breadcrumbs */}
-      <section className="px-6 py-8">
+      <section className="px-6 pt-12">
         <div className="max-w-7xl mx-auto">
           <nav className="flex items-center space-x-2 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition-colors">
@@ -95,26 +95,28 @@ const Vision = () => {
               left: "50%",
               transform: "translate(-50%, -50%)",
               width: "300px",
-              height: "300px"
+              height: "300px",
             }}
           />
           <SectionReveal>
-            <h2 className="text-primary tracking-[1em] uppercase text-[10px] mb-10 font-extrabold">
+            <h2 className="text-primary tracking-[1em] sm:tracking-[1em] uppercase text-[6px] sm:text-[10px] mb-10 font-extrabold">
               NBI Strategic Indenting
             </h2>
-            <h1 className="text-5xl md:text-8xl font-light leading-tight mb-12 font-display">
+            <h1 className="font-display text-3xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
               Sustainable <br />
               <span className="italic text-primary">Transformation</span>
             </h1>
-            <p className="max-w-3xl mx-auto text-muted-foreground text-lg font-light leading-loose">
-              Starting a textile chemical company in Pakistan is a strategic
-              move, given the country's heavy reliance on its textile sector and
-              the global push for{" "}
-              <span className="text-foreground font-bold">
-                ZDHC (Zero Discharge of Hazardous Chemicals)
-              </span>{" "}
-              compliance.
-            </p>
+            <div className="px-4 sm:px-60">
+              <p className="font-body text-sm md:text-lg font-light text-industrial leading-relaxed">
+                Starting a textile chemical company in Pakistan is a strategic
+                move, given the country's heavy reliance on its textile sector
+                and the global push for{" "}
+                <span className="text-foreground font-bold">
+                  ZDHC (Zero Discharge of Hazardous Chemicals)
+                </span>{" "}
+                compliance.
+              </p>
+            </div>
           </SectionReveal>
           <div className="mt-20">
             <SectionReveal delay={0.3}>
@@ -127,12 +129,12 @@ const Vision = () => {
         <section className="py-24 px-6 max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-10">
             <SectionReveal delay={0.1}>
-              <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded p-12">
+              <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded py-12">
                 <div className="w-0 h-0.5 bg-primary mb-8 transition-all duration-1500 group-hover:w-[100px]"></div>
                 <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6">
                   Vision Statement
                 </h3>
-                <p className="text-2xl md:text-3xl font-light leading-relaxed italic font-display">
+                <p className="text-xl md:text-3xl font-light leading-relaxed italic font-display">
                   "To be the leading catalyst of sustainable transformation in
                   the global textile and leather industries, setting the
                   benchmark for eco-intelligent chemical solutions that empower
@@ -141,7 +143,7 @@ const Vision = () => {
               </div>
             </SectionReveal>
             <SectionReveal delay={0.2}>
-              <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded p-12 lg:mt-20">
+              <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded py-12 lg:mt-20">
                 <div className="w-0 h-0.5 bg-primary mb-8 transition-all duration-1500 group-hover:w-[100px]"></div>
                 <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6">
                   Mission Statement
@@ -276,7 +278,6 @@ const Vision = () => {
                 <motion.a
                   href="/"
                   className="bg-primary text-background px-16 py-6 text-[10px] font-extrabold uppercase tracking-[0.5em] hover:bg-foreground transition duration-500"
-                  whileHover={{ scale: 1.05 }}
                 >
                   Back to Home
                 </motion.a>

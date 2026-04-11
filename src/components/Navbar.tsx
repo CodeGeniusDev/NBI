@@ -8,14 +8,18 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const scrollTo = (id: string) => {
-    if (id === "Leadership") {
-      window.location.href = "/ceo";
-    } else {
-      document
-        .getElementById(id.toLowerCase())
-        ?.scrollIntoView({ behavior: "smooth" });
-    }
     setMenuOpen(false);
+
+    setTimeout(() => {
+      if (id === "Leadership") {
+        window.location.href = "/ceo";
+      } else {
+        const element = document.getElementById(id.toLowerCase());
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }, 100);
   };
 
   return (
@@ -28,8 +32,8 @@ const Navbar = () => {
           <img
             src={logo}
             alt="NBI Logo"
-            width={30}
-            height={30}
+            width={50}
+            height={50}
             className="ml-2"
           />
           NBI
@@ -83,7 +87,7 @@ const Navbar = () => {
                 <button
                   key={link}
                   onClick={() => scrollTo(link)}
-                  className="font-body text-sm font-light text-muted-foreground text-left transition-colors duration-300 hover:text-primary"
+                  className="font-body text-sm font-light text-left text-muted-foreground transition-colors duration-300 hover:text-primary"
                 >
                   {link}
                 </button>

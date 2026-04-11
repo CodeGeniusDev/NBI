@@ -44,7 +44,7 @@ const StrategicVision = () => (
     <div className="max-w-7xl mx-auto">
       <SectionReveal>
         <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">STRATEGIC VISION</p>
-        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-6">
+        <h2 className="font-display text-3xl md:text-6xl text-foreground mb-6">
           SUSTAINABLE<br />
           <span className="text-gold-gradient">TRANSFORMATION</span>
         </h2>

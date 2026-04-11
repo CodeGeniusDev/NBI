@@ -2,7 +2,12 @@
 
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { navLinks } from "../../../../nexus2/app/constants/data";
+const navLinks = [
+  { label: "Solutions", href: "#solutions", active: false, cta: false },
+  { label: "Leadership", href: "/ceo", active: false, cta: false },
+  { label: "Vision", href: "#vision", active: false, cta: false },
+  { label: "Contact", href: "#contact", active: false, cta: true }
+];
 
 export function Header() {
   const [open, setOpen] = useState(false);

@@ -9,8 +9,8 @@ const Footer = () => (
         <img
           src={logo}
           alt="NBI Logo"
-          width={30}
-          height={30}
+          width={50}
+          height={50}
           className="ml-2"
         />
         NBI
