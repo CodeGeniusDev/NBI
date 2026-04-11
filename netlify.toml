@@ -9,3 +9,8 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+# Disable Next.js plugin since this is a Vite/React app
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  enabled = false
