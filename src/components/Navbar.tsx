@@ -36,7 +36,10 @@ const Navbar = () => {
             height={50}
             className="ml-2"
           />
-          NBI
+          <span className="hidden md:inline text-lg font-semibold">
+            NEXUS BRIDGE <span className="text-foreground">INTERNATIONAL</span>
+          </span>
+          <span className="md:hidden">NBI</span>
         </span>
 
         {/* Desktop */}
@@ -45,7 +48,7 @@ const Navbar = () => {
             <button
               key={link}
               onClick={() => scrollTo(link)}
-              className="font-body text-sm font-light text-muted-foreground transition-colors duration-300 hover:text-primary"
+              className="font-body text-sm font-light text-industrial transition-colors duration-300 hover:text-primary"
             >
               {link}
             </button>
