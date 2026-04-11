@@ -1,0 +1,7 @@
+<svg width="640" height="800" viewBox="0 0 640 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="800" fill="#f3f4f6"/>
+  <circle cx="320" cy="250" r="80" fill="#d1d5db"/>
+  <path d="M320 250 C320 250 320 280 320 320 C320 360 280 400 240 440 C200 480 200 520 200 560 L200 800 L440 800 L440 560 C440 520 440 480 400 440 C360 400 320 360 320 320 C320 280 320 250 320 250 Z" fill="#d1d5db"/>
+  <text x="320" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#6b7280">NAIRA USMAN</text>
+  <text x="320" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Founder & CEO</text>
+</svg>
