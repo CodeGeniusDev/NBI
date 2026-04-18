@@ -72,7 +72,7 @@ const Privacy = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4 text-primary">Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  If you have questions about this Privacy Policy, please contact us at privacy@nexusbridge.com
+                  If you have questions about this Privacy Policy, please contact us at sales@nexusbridgeinternational.com
                 </p>
               </div>
             </div>

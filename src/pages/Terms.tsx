@@ -79,7 +79,7 @@ const Terms = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4 text-primary">Contact Information</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Questions about the Terms of Service should be sent to legal@nexusbridge.com
+                  Questions about the Terms of Service should be sent to sales@nexusbridgeinternational.com
                 </p>
               </div>
             </div>

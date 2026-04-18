@@ -18,13 +18,18 @@ const Footer = () => (
       <p className="font-body text-xs font-light text-muted-foreground tracking-wider">
         © 2024 NEXUS BRIDGE INTERNATIONAL. ALL RIGHTS RESERVED.
       </p>
-      <div className="flex items-center gap-6">
-        <a href="/privacy" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">
-          PRIVACY
+      <div className="flex flex-col md:flex-row items-center gap-6">
+        <a href="mailto:sales@nexusbridgeinternational.com" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">
+          sales@nexusbridgeinternational.com
         </a>
-        <a href="/terms" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">
-          TERMS
-        </a>
+        <div className="flex items-center gap-6">
+          <a href="/privacy" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">
+            PRIVACY
+          </a>
+          <a href="/terms" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">
+            TERMS
+          </a>
+        </div>
       </div>
     </div>
   </footer>

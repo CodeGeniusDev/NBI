@@ -25,11 +25,11 @@ const ContactForm = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <span className="w-1 h-1 rounded-full bg-primary" />
-                <span className="font-body text-sm font-light text-industrial">inquiry@nexusbridge.pk</span>
+                <span className="font-body text-sm font-light text-industrial">sales@nexusbridgeinternational.com</span>
               </div>
               <div className="flex items-center gap-4">
                 <span className="w-1 h-1 rounded-full bg-primary" />
-                <span className="font-body text-sm font-light text-industrial">Karachi, Pakistan</span>
+                <span className="font-body text-sm font-light text-industrial">176 L block Khayaban e Amin Lahore Pakistan</span>
               </div>
             </div>
           </SectionReveal>
