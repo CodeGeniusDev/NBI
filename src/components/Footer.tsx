@@ -16,7 +16,7 @@ const Footer = () => (
         NBI
       </span>
       <p className="font-body text-xs font-light text-muted-foreground tracking-wider">
-        © 2024 NEXUS BRIDGE INTERNATIONAL. ALL RIGHTS RESERVED.
+        © {new Date().getFullYear()} NEXUS BRIDGE INTERNATIONAL. ALL RIGHTS RESERVED.
       </p>
       <div className="flex flex-col md:flex-row items-center gap-6">
         <a href="mailto:sales@nexusbridgeinternational.com" className="font-body text-xs font-light text-muted-foreground transition-colors duration-300 hover:text-primary">

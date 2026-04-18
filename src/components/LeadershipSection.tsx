@@ -3,16 +3,7 @@ import SectionReveal from "./SectionReveal";
 import nairaImg from "@/assets/hero-industrial.jpg";
 // import nairaImg from "@/assets/leadership-placeholder.svg";
 
-const timeline = [
-  { year: "2009", event: "B.Sc. Chemical Engineering — NED University, Karachi" },
-  { year: "2011", event: "Process Engineer — Archroma Pakistan (Textile Auxiliaries Division)" },
-  { year: "2014", event: "Senior Technical Consultant — Clariant Pakistan" },
-  { year: "2016", event: "MBA in HR & Operations — IBA Karachi" },
-  { year: "2017", event: "Head of Industrial Relations — Engro Polymer & Chemicals" },
-  { year: "2019", event: "VP Operations & HR — Pakistan Chemical Council" },
-  { year: "2021", event: "Founded Nexus Bridge International" },
-  { year: "2024", event: "NBI recognized as Top 5 Import Substitution Enabler — TDAP Awards" },
-];
+const timeline = [];
 
 const LeadershipSection = () => (
   <section id="leadership" className="py-32 px-6">
