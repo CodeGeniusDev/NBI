@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import BentoGrid from "@/components/BentoGrid";
 import LeadershipSection from "@/components/LeadershipSection";
 import StrategicVision from "@/components/StrategicVision";
@@ -12,6 +13,7 @@ const Index = () => (
     <Navbar />
     <main>
       <HeroSection />
+      <WhyChooseUs />
       <BentoGrid />
       <LeadershipSection />
       <StrategicVision />

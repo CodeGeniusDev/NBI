@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroVideo from "@/assets/video3.mp4";
+import heroVideo from "@/assets/video4.mp4";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -26,15 +26,13 @@ const HeroSection = () => (
           NEXUS BRIDGE INTERNATIONAL
         </p>
         <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
-          <span className="text-gold-gradient">INDENTING</span>
+          <span className="text-gold-gradient">CHEMICAL SOURCING</span>
           <br />
-          <span className="text-foreground">THE FUTURE</span>
+          <span className="text-foreground">INTELLIGENCE</span>
         </h1>
         <div className="px-4 sm:px-60">
           <p className="font-body text-sm md:text-lg font-light text-industrial leading-relaxed">
-            Pioneering green chemistry and import substitution for Pakistan's
-            textile &amp; leather export economy. We bridge the gap between
-            world-class chemical innovation and industrial-scale production.
+            Global indenting solutions for the textile industry — connecting you with trusted manufacturers, optimized pricing, and consistent supply chains.
           </p>
         </div>
       </motion.div>

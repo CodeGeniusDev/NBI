@@ -9,32 +9,45 @@ const LeadershipSection = () => (
   <section id="leadership" className="py-32 px-6">
     <div className="max-w-7xl mx-auto">
       <SectionReveal>
-        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">LEADERSHIP</p>
+        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">
+          LEADERSHIP
+        </p>
       </SectionReveal>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
         {/* Left: Image */}
         <SectionReveal>
-          <div className="relative overflow-hidden border border-border">
-            <img
-              src={nairaImg}
-              alt="Naira Usman — Founder & CEO"
-              className="w-full h-full object-cover min-h-[500px] lg:min-h-[722px]"
-              loading="lazy"
-              width={640}
-              height={800}
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-8">
-              <h3 className="font-display text-3xl md:text-4xl text-foreground">NAIRA USMAN</h3>
-              <p className="font-body text-sm font-light text-primary tracking-wider mt-2">FOUNDER & CEO</p>
-            </div>
+          <div className="text-center mt-16">
+            <a
+              href="/ceo"
+              className="inline-flex items-center gap-2 px-8 py-3 font-body text-sm tracking-[0.2em] uppercase transition-all duration-300 hover:shadow-lg"
+            >
+              <div className="relative overflow-hidden border border-border">
+                <img
+                  src={nairaImg}
+                  alt="Naira Usman — Founder & CEO"
+                  className="w-full h-full object-cover min-h-[500px] lg:min-h-[722px]"
+                  loading="lazy"
+                  width={640}
+                  height={800}
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-8">
+                  <h3 className="font-display text-3xl md:text-4xl text-foreground">
+                    NAIRA USMAN
+                  </h3>
+                  <p className="font-body text-sm font-light text-primary tracking-wider mt-2">
+                    FOUNDER & CEO
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
         </SectionReveal>
 
         {/* Right: Timeline */}
         <SectionReveal delay={0.2}>
           <div className="border border-border border-l-0 p-8 lg:p-12 flex flex-col justify-center min-h-[500px] lg:min-h-[700px]">
-            <h2 className="font-display text-3xl md:text-5xl text-foreground mb-4">
+            {/* <h2 className="font-display text-3xl md:text-5xl text-foreground mb-4">
               15 YEARS OF<br />
               <span className="text-gold-gradient">ENGINEERING</span><br />
               EXCELLENCE
@@ -54,7 +67,7 @@ const LeadershipSection = () => (
                   </span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </SectionReveal>
       </div>

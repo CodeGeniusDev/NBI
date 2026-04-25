@@ -3,39 +3,39 @@ import SectionReveal from "./SectionReveal";
 const pillars = [
   {
     number: "01",
-    title: "Chrome-Free Tanning",
+    title: "Global Supplier Networks",
     description:
-      "Eliminating hexavalent chromium from Pakistan's leather value chain. Our proprietary vegetable-synthetic hybrid agents deliver equivalent tensile strength and shrinkage temperatures while meeting EU REACH Annex XVII restrictions. This positions Pakistani tanners for direct European market access — replacing $45M in annual chromium salt imports.",
+      "Expanding our indenting network to include verified manufacturers across Asia, Europe, and Middle East. Our strategic partnerships ensure reliable sourcing of pre-treatment agents, reactive dyes, and leather chemicals with competitive pricing and consistent quality — reducing lead times by 40% for textile processors.",
   },
   {
     number: "02",
-    title: "Bio-Based Auxiliaries",
+    title: "Digital Indenting Platform",
     description:
-      "Developing enzyme-catalyzed textile pre-treatment systems from locally sourced agricultural bio-waste. Our R&D pipeline converts sugarcane bagasse and rice husk into industrial-grade scouring and desizing agents — creating a circular feedstock model that substitutes $28M in imported petrochemical auxiliaries annually.",
+      "Developing an AI-driven procurement platform for chemical sourcing intelligence. Real-time price tracking, supplier verification, and automated compliance documentation streamline the indenting process — enabling textile manufacturers to source chemicals 60% faster with transparent pricing and quality assurance.",
   },
   {
     number: "03",
-    title: "Water-Efficient Chemicals",
+    title: "Sustainable Chemical Sourcing",
     description:
-      "Engineering low-liquor-ratio dyeing auxiliaries that reduce water consumption by 60% per kilogram of fabric. Our cold-pad batch chemistry operates at 30°C versus conventional 80°C processes, cutting energy costs by 45%. Critical for Pakistan's water-stressed textile corridors in Faisalabad and Karachi.",
+      "Prioritizing eco-friendly and ZDHC-compliant chemicals through our global network. Our indenting services focus on bio-based auxiliaries, chrome-free tanning agents, and water-efficient dyeing systems — helping textile companies meet environmental standards while maintaining cost competitiveness.",
   },
   {
     number: "04",
-    title: "Nano-Technology",
+    title: "Supply Chain Resilience",
     description:
-      "Deploying nano-encapsulation technology for controlled-release finishing agents. Applications include durable antimicrobial treatments, UV-protective coatings, and self-cleaning textile surfaces. Our nano-silver formulations achieve 99.7% bacterial reduction at 1/10th conventional silver loading — import substitution for $12M in specialty finishes.",
+      "Building robust logistics networks for chemical delivery across Pakistan's textile corridors. Our integrated tracking systems and strategic warehousing ensure uninterrupted supply chains — critical for maintaining production schedules and preventing costly downtime in textile processing units.",
   },
   {
     number: "05",
-    title: "Circular Economy",
+    title: "Technical Support Excellence",
     description:
-      "Designing closed-loop chemical recovery systems for dyehouse effluent. Our membrane-assisted separation technology recovers 85% of unfixed dye and 92% of salt from reactive dyeing wastewater. Converting compliance costs into recovered value — enabling Pakistan's textile sector to meet ZDHC Manufacturing Restricted Substances List (MRSL).",
+      "Providing expert application support and technical coordination for sourced chemicals. Our team of specialists ensures optimal product utilization, troubleshooting assistance, and process optimization — maximizing the value of chemical investments and improving production efficiency.",
   },
   {
     number: "06",
-    title: "Digital Lab & Certification",
+    title: "Market Intelligence Services",
     description:
-      "Building Pakistan's first AI-driven formulation laboratory for textile and leather chemicals. Automated spectrophotometric analysis, digital color matching, and blockchain-verified compliance documentation. Reducing formulation development cycles from 8 weeks to 5 days — accelerating time-to-market for import substitution products.",
+      "Delivering real-time market analysis and chemical pricing trends to our clients. Our intelligence platform provides insights into global chemical markets, regulatory changes, and emerging technologies — enabling informed procurement decisions and strategic planning for textile manufacturers.",
   },
 ];
 
@@ -49,7 +49,7 @@ const StrategicVision = () => (
           <span className="text-gold-gradient">TRANSFORMATION</span>
         </h2>
         <p className="font-body text-base font-light text-muted-foreground max-w-2xl mb-20 leading-relaxed">
-          Six pillars of innovation driving Pakistan's chemical independence. Each initiative is engineered for import substitution impact and ecological compliance.
+          Six strategic pillars driving excellence in chemical sourcing intelligence. Each initiative strengthens our indenting capabilities and global supplier partnerships.
         </p>
       </SectionReveal>
 

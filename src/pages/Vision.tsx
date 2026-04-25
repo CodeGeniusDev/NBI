@@ -6,54 +6,54 @@ const Vision = () => {
   const strategicPlans = [
     {
       number: "01",
-      title: "Shift to Chrome-Free Tanning Solutions",
-      goal: "Move away from Chromium III and VI to meet strict EU and US import regulations.",
+      title: "Chrome-Free Tanning Indenting Network",
+      goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
       action:
-        "Develop Zeolite-based or Aldehyde-free tanning agents that provide the same leather suppleness without the toxic effluent.",
+        "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
       image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae",
     },
     {
       number: "02",
-      title: "Bio-Based Auxiliaries & Fat Liquors",
-      goal: "Replace petroleum-derived oils with renewable resources.",
+      title: "Bio-Based Auxiliaries Sourcing",
+      goal: "Facilitate access to renewable, bio-based chemical alternatives from international suppliers.",
       action:
-        "Formulate fat liquors and softening agents derived from vegetable oils and biomass to improve the biodegradability.",
+        "Establish indenting relationships with global producers of vegetable oil-derived fat liquors and softening agents, improving biodegradability for Pakistani textile processors.",
       image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
       reverse: true,
     },
     {
       number: "03",
-      title: "Water-Efficient Beamhouse Chemicals",
+      title: "Water-Efficient Chemical Solutions",
       description:
-        "Address Pakistan's water scarcity and high cost of wastewater treatment.",
+        "Address Pakistan's water scarcity through strategic sourcing of water-efficient technologies.",
       action:
-        "Launch a line of 'Low-Liquor' chemicals that allow the beamhouse process to operate with 30% to 40% less water consumption.",
+        "Connect textile manufacturers with international suppliers of low-liquor chemicals that reduce water consumption by 30-40% in beamhouse processes.",
       image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
     },
     {
       number: "04",
-      title: "Nano-Technology in Finishing",
+      title: "Advanced Finishing Technologies",
       description:
-        "Create high-performance, 'Smart' leather for premium markets.",
+        "Provide access to cutting-edge nano-technology finishing solutions for premium markets.",
       action:
-        "Invest in Nano-coatings that offer self-cleaning, anti-microbial, and UV-resistance for Automotive and Footwear.",
+        "Source and import nano-coatings, self-cleaning, anti-microbial, and UV-resistance technologies from specialized global manufacturers for automotive and footwear applications.",
       image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780",
       reverse: true,
     },
     {
       number: "05",
-      title: "Circular Economy & Waste Valorization",
-      goal: "Transform leather waste into a resource.",
+      title: "Circular Economy Partnerships",
+      goal: "Connect Pakistani industry with global circular economy solution providers.",
       action:
-        "Develop enzymes and chemical processes to recover collagen and proteins to be repurposed back into the cycle.",
+        "Establish indenting agreements with international suppliers of enzymes and chemical processes for waste valorization, enabling collagen and protein recovery from leather waste.",
       image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1",
     },
     {
       number: "06",
-      title: "Digital Lab & Certification",
-      goal: "Instant compliance and transparency.",
+      title: "Digital Compliance & Certification",
+      goal: "Streamline market access through digital compliance solutions.",
       action:
-        "Establish a testing facility in Pakistan providing ZDHC Gateway and LWG support, ensuring products are 'Market-Ready'.",
+        "Partner with international testing facilities and digital platforms to provide ZDHC Gateway and LWG certification support, ensuring products are 'Market-Ready' for global exports.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
       reverse: true,
     },
@@ -104,17 +104,17 @@ const Vision = () => {
             </h2>
             <h1 className="font-display text-3xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
               Sustainable <br />
-              <span className="italic text-primary">Transformation</span>
+              <span className="italic text-primary">Sourcing</span>
             </h1>
             <div className="px-4 sm:px-60">
               <p className="font-body text-sm md:text-lg font-light text-industrial leading-relaxed">
-                Starting a textile chemical company in Pakistan is a strategic
-                move, given the country's heavy reliance on its textile sector
-                and the global push for{" "}
+                Establishing a textile chemical indenting company in Pakistan is a strategic
+                move, connecting local manufacturers with global suppliers while meeting the
+                growing demand for{" "}
                 <span className="text-foreground font-bold">
                   ZDHC (Zero Discharge of Hazardous Chemicals)
                 </span>{" "}
-                compliance.
+                compliance through international sourcing.
               </p>
             </div>
           </SectionReveal>
@@ -135,10 +135,10 @@ const Vision = () => {
                   Vision Statement
                 </h3>
                 <p className="text-xl md:text-3xl font-light leading-relaxed italic font-display">
-                  "To be the leading catalyst of sustainable transformation in
-                  the global textile and leather industries, setting the
-                  benchmark for eco-intelligent chemical solutions that empower
-                  Pakistan's exports on the world stage."
+                  "To be the leading chemical sourcing intelligence platform connecting
+                  Pakistan's textile and leather industries with verified global suppliers,
+                  enabling sustainable transformation through strategic indenting partnerships
+                  and reliable supply chain solutions."
                 </p>
               </div>
             </SectionReveal>
@@ -149,12 +149,11 @@ const Vision = () => {
                   Mission Statement
                 </h3>
                 <p className="text-muted-foreground leading-loose text-lg font-light italic">
-                  "Our mission is to engineer high-performance, compliant, and
-                  innovative chemical auxiliaries that optimize manufacturing
-                  efficiency for our partners. We are committed to reducing the
-                  environmental footprint of the textile and leather sectors
-                  through rigorous R&D, local manufacturing excellence, and a
-                  'Safety-First' approach for both the consumer and the planet."
+                  "Our mission is to facilitate access to high-performance, compliant, and
+                  innovative chemical auxiliaries through strategic global sourcing. We are committed
+                  to reducing the environmental footprint of the textile and leather sectors
+                  through rigorous supplier verification, competitive indenting, and a
+                  'Sourcing-First' approach that ensures quality and reliability for our partners."
                 </p>
               </div>
             </SectionReveal>
@@ -167,7 +166,7 @@ const Vision = () => {
             <img
               src="https://images.unsplash.com/photo-1518152006812-edab29b069ac"
               className="w-full h-[60vh] object-cover rounded-sm shadow-2xl transition-all duration-1000 hover:filter-none hover:scale-[1.02] filter brightness-[0.6] grayscale-[0.5]"
-              alt="Chemical Innovation Laboratory"
+              alt="Global Chemical Sourcing Network"
             />
           </SectionReveal>
         </section>
@@ -189,12 +188,12 @@ const Vision = () => {
             </h2>
             <h3 className="text-4xl md:text-6xl font-light mb-10 font-display">
               The Leather Sector{" "}
-              <span className="italic text-primary">Evolution</span>
+              <span className="italic text-primary">Sourcing</span>
             </h3>
             <p className="max-w-2xl mx-auto text-muted-foreground font-light text-lg">
-              As NBI expands into the leather sector, the focus shifts from
-              traditional tanning to{" "}
-              <span className="text-foreground italic">"Green Chemistry."</span>
+              As NBI expands leather chemical indenting services, the focus shifts from
+              traditional sourcing to{" "}
+              <span className="text-foreground italic">"Green Chemistry Partnerships."</span>
             </p>
           </SectionReveal>
         </section>
@@ -262,17 +261,17 @@ const Vision = () => {
                 Key Success Factor for Pakistan
               </h2>
               <h3 className="text-4xl md:text-7xl font-light mb-12 uppercase leading-tight font-display">
-                Import <br />
-                <span className="italic text-primary">Substitution</span>
+                Strategic <br />
+                <span className="italic text-primary">Sourcing</span>
               </h3>
               <p className="text-muted-foreground text-xl font-light leading-relaxed mb-16">
-                As a local manufacturer, your primary edge will be{" "}
+                As a strategic indenting partner, our primary edge is{" "}
                 <span className="text-foreground font-bold">
-                  Import Substitution
+                  Global Sourcing Intelligence
                 </span>
-                . By producing these advanced chemicals locally, you reduce the
-                lead time and foreign exchange burden for Pakistani tanneries,
-                making you an indispensable partner in their supply chain.
+                . By connecting Pakistani manufacturers with verified international suppliers,
+                we reduce lead times and foreign exchange burdens, making us an indispensable
+                partner in their supply chain.
               </p>
               <div className="flex justify-center gap-10">
                 <motion.a

@@ -1,4 +1,5 @@
 import SectionReveal from "./SectionReveal";
+import preTreatmentImg from "@/assets/img.jpeg";
 
 interface SolutionBlock {
   title: string;
@@ -6,33 +7,35 @@ interface SolutionBlock {
   specs: string[];
   description: string;
   span?: string;
+  image?: string;
 }
 
 const solutions: SolutionBlock[] = [
   {
-    title: "Pre-Treatment Agents",
+    title: "PRE-TREATMENT AGENTS",
     category: "TEXTILE",
-    specs: ["Desizing Enzymes", "Bio-Scouring Compounds", "Eco-Bleach Stabilizers"],
-    description: "Advanced enzymatic formulations replacing harsh caustic processes. Our bio-based pre-treatment suite reduces water consumption by 40% while achieving superior whiteness indices.",
+    specs: ["Desizing Enzymes", "Bio-Scouring Solutions", "Eco-Bleach Stabilizers"],
+    description: "We source high-performance pre-treatment chemicals from verified international manufacturers. Our indenting network ensures consistent quality, competitive pricing, and reliable availability — helping textile processors optimize operations without supply disruptions.",
     span: "md:col-span-2 md:row-span-2",
+    image: preTreatmentImg,
   },
   {
-    title: "Reactive Dyeing Systems",
+    title: "REACTIVE DYEING SYSTEMS",
     category: "TEXTILE",
-    specs: ["Cold-Pad Batch Dyes", "Low-Salt Reactives", "Fixation Rate: 92%+"],
-    description: "Next-generation reactive dye auxiliaries engineered for minimal salt discharge and maximum color yield. Import substitution grade.",
+    specs: ["Cold-Pad Batch Dyes", "Low-Salt Reactive Dyes", "Fixation Rate: 92%+"],
+    description: "We facilitate sourcing of advanced reactive dyes and auxiliaries from globally recognized suppliers. Our indenting expertise ensures cost-effective procurement, reduced lead times, and dependable supply for uninterrupted production cycles.",
   },
   {
-    title: "Digital Print Chemistry",
+    title: "DIGITAL PRINT CHEMISTRY",
     category: "TEXTILE",
     specs: ["Ink-Jet Pre-Treatment", "Pigment Binders", "UV-Cure Systems"],
-    description: "Complete digital textile printing chemical suite. Enabling Pakistan's shift from conventional to digital production with locally sourced formulations.",
+    description: "End-to-end sourcing solutions for digital textile printing chemicals. We connect you with trusted global partners, enabling smooth transition to modern printing technologies with assured quality and timely deliveries.",
   },
   {
-    title: "Chrome-Free Tanning",
+    title: "CHROME-FREE TANNING",
     category: "LEATHER",
     specs: ["Glutaraldehyde-Free", "Vegetable-Synthetic Hybrid", "ZDHC Compliant"],
-    description: "Proprietary chrome-free tanning agents meeting EU REACH standards. Enabling Pakistani leather exporters to access restricted European markets.",
+    description: "We provide indenting services for sustainable leather processing chemicals, sourcing from certified international manufacturers. Our network ensures compliance, consistency, and competitive pricing for modern leather production needs.",
     span: "md:col-span-2",
   },
   {
@@ -65,6 +68,16 @@ const BentoGrid = () => (
               </div>
 
               <h3 className="font-display text-xl md:text-2xl text-foreground mb-4">{sol.title}</h3>
+              
+              {sol.image && (
+                <div className="mb-6">
+                  <img
+                    src={sol.image}
+                    alt={sol.title}
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                </div>
+              )}
               
               <div className="flex flex-wrap gap-2 mb-6">
                 {sol.specs.map((spec) => (
