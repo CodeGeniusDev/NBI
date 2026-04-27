@@ -1,7 +1,5 @@
 import SectionReveal from "./SectionReveal";
-// import nairaImg from "@/assets/leadership-naira.jpg";
-import nairaImg from "@/assets/hero-industrial.jpg";
-// import nairaImg from "@/assets/leadership-placeholder.svg";
+import nairaImg from "@/assets/Leader.jpg";
 
 const timeline = [];
 
@@ -14,59 +12,86 @@ const LeadershipSection = () => (
         </p>
       </SectionReveal>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 h-[722px] lg:h-[722px]">
         {/* Left: Image */}
         <SectionReveal>
-          <div className="text-center mt-16">
-            <a
-              href="/ceo"
-              className="inline-flex items-center gap-2 px-8 py-3 font-body text-sm tracking-[0.2em] uppercase transition-all duration-300 hover:shadow-lg"
-            >
-              <div className="relative overflow-hidden border border-border">
-                <img
-                  src={nairaImg}
-                  alt="Naira Usman — Founder & CEO"
-                  className="w-full h-full object-cover min-h-[500px] lg:min-h-[722px]"
-                  loading="lazy"
-                  width={640}
-                  height={800}
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-8">
-                  <h3 className="font-display text-3xl md:text-4xl text-foreground">
-                    NAIRA USMAN
-                  </h3>
-                  <p className="font-body text-sm font-light text-primary tracking-wider mt-2">
-                    FOUNDER & CEO
-                  </p>
-                </div>
+          <div className="h-full border border-border">
+            <div className="relative overflow-hidden h-full">
+              <img
+                src={nairaImg}
+                alt="Naira Usman — Founder & CEO"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                width={640}
+                height={800}
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-8">
+                <h3 className="font-display text-3xl md:text-4xl text-foreground">
+                  NAIRA USMAN
+                </h3>
+                <p className="font-body text-sm font-light text-primary tracking-wider mt-2">
+                  FOUNDER & CEO
+                </p>
               </div>
-            </a>
+            </div>
           </div>
         </SectionReveal>
 
-        {/* Right: Timeline */}
+        {/* Right: Leadership Content */}
         <SectionReveal delay={0.2}>
-          <div className="border border-border border-l-0 p-8 lg:p-12 flex flex-col justify-center min-h-[500px] lg:min-h-[700px]">
+          <div className="border border-border border-l-0 p-8 lg:p-12 flex flex-col justify-center h-full">
             {/* <h2 className="font-display text-3xl md:text-5xl text-foreground mb-4">
-              15 YEARS OF<br />
-              <span className="text-gold-gradient">ENGINEERING</span><br />
+              15 YEARS OF
+              <br />
+              <span className="text-gold-gradient">SOURCING</span>
+              <br />
               EXCELLENCE
             </h2>
             <p className="font-body text-sm font-light text-muted-foreground mb-10 leading-relaxed max-w-md">
-              From chemical process floors to corporate boardrooms — a career forged at the intersection of industrial chemistry, human capital, and visionary entrepreneurship.
+              From chemical sourcing networks to global supplier partnerships —
+              a career forged at the intersection of textile chemistry,
+              international trade, and strategic indenting expertise.
             </p>
 
-            <div className="space-y-0">
-              {timeline.map((item, i) => (
-                <div key={i} className="flex gap-6 py-3 border-b border-border/50 group">
-                  <span className="font-display text-sm text-primary min-w-[50px] transition-opacity duration-300 group-hover:opacity-100 opacity-60">
-                    {item.year}
-                  </span>
-                  <span className="font-body text-sm font-light text-muted-foreground transition-colors duration-300 group-hover:text-foreground">
-                    {item.event}
-                  </span>
+            <div className="space-y-4">
+              <div className="flex gap-4 items-start">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="font-body text-sm font-semibold text-foreground mb-1">
+                    Global Network Builder
+                  </h4>
+                  <p className="font-body text-xs font-light text-muted-foreground">
+                    Established strategic partnerships with verified chemical
+                    manufacturers across Asia, Europe, and Middle East.
+                  </p>
                 </div>
-              ))}
+              </div>
+
+              <div className="flex gap-4 items-start">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="font-body text-sm font-semibold text-foreground mb-1">
+                    Textile Industry Expert
+                  </h4>
+                  <p className="font-body text-xs font-light text-muted-foreground">
+                    Deep understanding of pre-treatment, dyeing, and finishing
+                    chemical requirements for textile processors.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start">
+                <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="font-body text-sm font-semibold text-foreground mb-1">
+                    Supply Chain Strategist
+                  </h4>
+                  <p className="font-body text-xs font-light text-muted-foreground">
+                    Pioneered digital indenting platforms that reduce lead times
+                    and ensure reliable chemical supply chains.
+                  </p>
+                </div>
+              </div>
             </div> */}
           </div>
         </SectionReveal>
