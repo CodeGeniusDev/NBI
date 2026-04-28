@@ -10,7 +10,7 @@ const Vision = () => {
       goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
       action:
         "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
-      image: "https://share.google/qEYhXYxHrYaVbE3d5",
+      image: "https://pin.it/5d3zV59ku",
     },
     {
       number: "02",
@@ -18,7 +18,7 @@ const Vision = () => {
       goal: "Facilitate access to renewable, bio-based chemical alternatives from international suppliers.",
       action:
         "Establish indenting relationships with global producers of vegetable oil-derived fat liquors and softening agents, improving biodegradability for Pakistani textile processors.",
-      image: "https://share.google/pPAIoAaJq0ItccVpr",
+      image: "https://pin.it/Q9LKERuUB",
       reverse: true,
     },
     {
@@ -28,7 +28,7 @@ const Vision = () => {
         "Address Pakistan's water scarcity through strategic sourcing of water-efficient technologies.",
       action:
         "Connect textile manufacturers with international suppliers of low-liquor chemicals that reduce water consumption by 30-40% in beamhouse processes.",
-      image: "https://share.google/BbxJaDRtQloY8GUCx",
+      image: "https://pin.it/7EJirAwnt",
     },
     {
       number: "04",
@@ -37,7 +37,7 @@ const Vision = () => {
         "Provide access to cutting-edge nano-technology finishing solutions for premium markets.",
       action:
         "Source and import nano-coatings, self-cleaning, anti-microbial, and UV-resistance technologies from specialized global manufacturers for automotive and footwear applications.",
-      image: "https://share.google/jnIXVdXIBNZKPHaiB",
+      image: "https://pin.it/4jpzSpqxs",
       reverse: true,
     },
     {
@@ -46,7 +46,7 @@ const Vision = () => {
       goal: "Connect Pakistani industry with global circular economy solution providers.",
       action:
         "Establish indenting agreements with international suppliers of enzymes and chemical processes for waste valorization, enabling collagen and protein recovery from leather waste.",
-      image: "https://share.google/QzifuwUl1eeA5QgZy",
+      image: "https://pin.it/4UhfXnWW1",
     },
     {
       number: "06",
@@ -54,7 +54,7 @@ const Vision = () => {
       goal: "Streamline market access through digital compliance solutions.",
       action:
         "Partner with international testing facilities and digital platforms to provide ZDHC Gateway and LWG certification support, ensuring products are 'Market-Ready' for global exports.",
-      image: "https://share.google/dSXkA5hSf7fkyuIao",
+      image: "https://pin.it/7sC9D1XJ8",
       reverse: true,
     },
   ];
