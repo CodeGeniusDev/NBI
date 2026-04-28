@@ -25,7 +25,7 @@ const HeroSection = () => (
         <p className="font-body text-xs sm:text-sm font-light tracking-[0.3em] text-industrial mb-8">
           NEXUS BRIDGE INTERNATIONAL
         </p>
-        <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
+        <h1 className="font-display text-3xl sm:text-5xl md:text67xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-[0.9] mb-8">
           <span className="text-gold-gradient">CHEMICAL SOURCING</span>
           <br />
           <span className="text-foreground">INTELLIGENCE</span>
