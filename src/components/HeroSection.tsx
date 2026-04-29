@@ -22,14 +22,18 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
-        <p className="font-body text-xs sm:text-sm font-light tracking-[0.3em] text-industrial mb-8">
+        {/* Italicized Eyebrow Heading */}
+        <p className="font-body text-xs sm:text-sm font-light italic tracking-[0.3em] text-industrial mb-8">
           NEXUS BRIDGE INTERNATIONAL
         </p>
-        <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
+
+        {/* Italicized Main Heading */}
+        <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8 italic">
           <span className="text-gold-gradient">CHEMICAL SOURCING</span>
           <br />
           <span className="text-foreground">INTELLIGENCE</span>
         </h1>
+
         <div className="px-4 sm:px-60">
           <p className="font-body text-sm md:text-lg font-light text-industrial leading-relaxed">
             Global indenting solutions for the textile industry — connecting you with trusted manufacturers, optimized pricing, and consistent supply chains.
