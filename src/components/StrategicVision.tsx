@@ -43,8 +43,8 @@ const StrategicVision = () => (
   <section id="vision" className="py-32 px-6">
     <div className="max-w-7xl mx-auto">
       <SectionReveal>
-        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">STRATEGIC VISION</p>
-        <h2 className="font-display text-3xl md:text-6xl text-foreground mb-6">
+        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4 italic">STRATEGIC VISION</p>
+        <h2 className="font-display text-3xl md:text-6xl text-foreground mb-6 italic">
           SUSTAINABLE<br />
           <span className="text-gold-gradient">TRANSFORMATION</span>
         </h2>
@@ -63,7 +63,7 @@ const StrategicVision = () => (
                 </span>
               </div>
               <div className="md:col-span-3">
-                <h3 className="font-display text-xl md:text-2xl text-foreground">
+                <h3 className="font-display text-xl md:text-2xl text-foreground italic">
                   {pillar.title}
                 </h3>
               </div>

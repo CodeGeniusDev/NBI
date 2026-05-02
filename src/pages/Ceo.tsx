@@ -34,7 +34,7 @@ const Ceo = () => {
       
       <div className="max-w-4xl mx-auto">
         <SectionReveal>
-          <h1 className="font-display text-4xl md:text-5xl text-foreground tracking-widest mb-1">
+          <h1 className="font-display text-4xl md:text-5xl text-foreground tracking-widest mb-1 italic">
             NAIRA USMAN
           </h1>
           <div className="w-[150px] h-2.5 border-b-2 border-primary rounded-b-full mb-8 ml-1.5"></div>

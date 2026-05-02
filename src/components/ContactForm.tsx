@@ -14,8 +14,8 @@ const ContactForm = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <SectionReveal>
-            <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">TECHNICAL DESK</p>
-            <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
+            <p className="font-body text-xs tracking-[0.3em] text-primary mb-4 italic">TECHNICAL DESK</p>
+            <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6 italic">
               INITIATE<br />DIALOGUE
             </h2>
             <p className="font-body text-sm font-light text-muted-foreground leading-relaxed max-w-md mb-10">
@@ -38,7 +38,7 @@ const ContactForm = () => {
             {submitted ? (
               <div className="flex items-center justify-center h-full">
                 <div className="text-center">
-                  <span className="font-display text-2xl text-primary">RECEIVED</span>
+                  <span className="font-display text-2xl text-primary italic">RECEIVED</span>
                   <p className="font-body text-sm font-light text-muted-foreground mt-4">
                     Our technical team will respond within 24 hours.
                   </p>

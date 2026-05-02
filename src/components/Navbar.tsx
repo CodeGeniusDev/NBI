@@ -26,18 +26,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <span
-          className="font-display text-xl tracking-wider text-primary cursor-pointer flex items-center"
+          className="font-sans text-xl tracking-wider text-foreground cursor-pointer flex items-center"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <img
-            src={logo}
-            alt="NBI Logo"
-            width={50}
-            height={50}
-            className="ml-2"
-          />
-          <span className="hidden md:inline text-lg font-semibold">
-            NEXUS BRIDGE <span className="text-foreground">INTERNATIONAL</span>
+          <img src={logo} alt="NBI Logo" width={60} height={60} />
+          <span className="hidden md:inline text-lg font-bold">
+            NEXUS BRIDGE INTERNATIONAL
           </span>
           <span className="md:hidden">NBI</span>
         </span>

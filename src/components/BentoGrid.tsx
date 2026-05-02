@@ -50,8 +50,8 @@ const BentoGrid = () => (
   <section id="solutions" className="py-32 px-6">
     <div className="max-w-7xl mx-auto">
       <SectionReveal>
-        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4">INDUSTRIAL SOLUTIONS</p>
-        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-16">
+        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4 italic">INDUSTRIAL SOLUTIONS</p>
+        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-16 italic">
           CHEMICAL<br />INTELLIGENCE
         </h2>
       </SectionReveal>
@@ -67,7 +67,7 @@ const BentoGrid = () => (
                 <span className="w-2 h-2 rounded-full bg-primary/30 transition-colors duration-500 group-hover:bg-primary" />
               </div>
 
-              <h3 className="font-display text-xl md:text-2xl text-foreground mb-4">{sol.title}</h3>
+              <h3 className="font-display text-xl md:text-2xl text-foreground mb-4 italic">{sol.title}</h3>
               
               {sol.image && (
                 <div className="mb-6">

@@ -5,8 +5,8 @@ const WhyChooseUs = () => (
   <section className="py-24 px-6 bg-background">
     <div className="max-w-7xl mx-auto">
       <SectionReveal>
-        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4 text-center">OUR ADVANTAGE</p>
-        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-16 text-center">
+        <p className="font-body text-xs tracking-[0.3em] text-primary mb-4 text-center italic">OUR ADVANTAGE</p>
+        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-16 text-center italic">
           WHY<br />CHOOSE US
         </h2>
       </SectionReveal>
@@ -39,7 +39,7 @@ const WhyChooseUs = () => (
               whileHover={{ y: -4 }}
               className="p-6 border border-border rounded-lg hover:border-primary/30 transition-colors duration-300"
             >
-              <h3 className="font-display text-xl text-foreground mb-3">{item.title}</h3>
+              <h3 className="font-display text-xl text-foreground mb-3 italic">{item.title}</h3>
               <p className="font-body text-sm font-light text-muted-foreground leading-relaxed">
                 {item.description}
               </p>

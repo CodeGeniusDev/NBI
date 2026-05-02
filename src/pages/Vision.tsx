@@ -3,61 +3,59 @@ import SectionReveal from "../components/SectionReveal";
 import watermark from "../assets/watermark.jpg";
 
 const Vision = () => {
-  const strategicPlans = [
-    {
-      number: "01",
-      title: "Chrome-Free Tanning Indenting Network",
-      goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
-      action:
-        "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
-      image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae",
-    },
-    {
-      number: "02",
-      title: "Bio-Based Auxiliaries Sourcing",
-      goal: "Facilitate access to renewable, bio-based chemical alternatives from international suppliers.",
-      action:
-        "Establish indenting relationships with global producers of vegetable oil-derived fat liquors and softening agents, improving biodegradability for Pakistani textile processors.",
-      image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
-      reverse: true,
-    },
-    {
-      number: "03",
-      title: "Water-Efficient Chemical Solutions",
-      description:
-        "Address Pakistan's water scarcity through strategic sourcing of water-efficient technologies.",
-      action:
-        "Connect textile manufacturers with international suppliers of low-liquor chemicals that reduce water consumption by 30-40% in beamhouse processes.",
-      image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
-    },
-    {
-      number: "04",
-      title: "Advanced Finishing Technologies",
-      description:
-        "Provide access to cutting-edge nano-technology finishing solutions for premium markets.",
-      action:
-        "Source and import nano-coatings, self-cleaning, anti-microbial, and UV-resistance technologies from specialized global manufacturers for automotive and footwear applications.",
-      image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780",
-      reverse: true,
-    },
-    {
-      number: "05",
-      title: "Circular Economy Partnerships",
-      goal: "Connect Pakistani industry with global circular economy solution providers.",
-      action:
-        "Establish indenting agreements with international suppliers of enzymes and chemical processes for waste valorization, enabling collagen and protein recovery from leather waste.",
-      image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1",
-    },
-    {
-      number: "06",
-      title: "Digital Compliance & Certification",
-      goal: "Streamline market access through digital compliance solutions.",
-      action:
-        "Partner with international testing facilities and digital platforms to provide ZDHC Gateway and LWG certification support, ensuring products are 'Market-Ready' for global exports.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      reverse: true,
-    },
-  ];
+const strategicPlans = [
+  {
+    number: "01",
+    title: "Chrome-Free Tanning Indenting Network",
+    goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
+    action: "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
+    // Visual: Sustainable, natural-toned leather processing
+    image: "https://images.unsplash.com/photo-1590739225287-bd31519780c3?q=80&w=1000&auto=format&fit=crop",
+  },
+{
+    number: "02",
+    title: "Bio-Based Auxiliaries Sourcing",
+    goal: "Facilitate access to renewable, bio-based chemical alternatives from international suppliers.",
+    action: "Establish indenting relationships with global producers of vegetable oil-derived fat liquors and softening agents, improving biodegradability for Pakistani textile processors.",
+    // Visual: Green leaf in a lab setting (Sustainable Chemistry)
+    image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1000",
+    reverse: true,
+  },
+  {
+    number: "03",
+    title: "Water-Efficient Chemical Solutions",
+    description: "Address Pakistan's water scarcity through strategic sourcing of water-efficient technologies.",
+    action: "Connect textile manufacturers with international suppliers of low-liquor chemicals that reduce water consumption by 30-40% in beamhouse processes.",
+    // Visual: Clean industrial water filtration and efficiency
+    image: "https://images.unsplash.com/photo-1519692933481-e162a57d6721?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    number: "04",
+    title: "Advanced Finishing Technologies",
+    description: "Provide access to cutting-edge nano-technology finishing solutions for premium markets.",
+    action: "Source and import nano-coatings, self-cleaning, anti-microbial, and UV-resistance technologies from specialized global manufacturers for automotive and footwear applications.",
+    // Visual: Hydrophobic effect/Nano-tech on fabric surface
+    image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1000&auto=format&fit=crop",
+    reverse: true,
+  },
+  {
+    number: "05",
+    title: "Circular Economy Partnerships",
+    goal: "Connect Pakistani industry with global circular economy solution providers.",
+    action: "Establish indenting agreements with international suppliers of enzymes and chemical processes for waste valorization, enabling collagen and protein recovery from leather waste.",
+    // Visual: Abstract concept of recycling and resource loops
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=1000&auto=format&fit=crop",
+  },
+  {
+    number: "06",
+    title: "Digital Compliance & Certification",
+    goal: "Streamline market access through digital compliance solutions.",
+    action: "Partner with international testing facilities and digital platforms to provide ZDHC Gateway and LWG certification support, ensuring products are 'Market-Ready' for global exports.",
+    // Visual: High-tech digital testing and quality control
+    image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?q=80&w=1000&auto=format&fit=crop",
+    reverse: true,
+  },
+];
 
   return (
     <>
@@ -99,10 +97,10 @@ const Vision = () => {
             }}
           />
           <SectionReveal>
-            <h2 className="text-primary tracking-[1em] sm:tracking-[1em] uppercase text-[6px] sm:text-[10px] mb-10 font-extrabold">
+            <h2 className="text-primary tracking-[1em] sm:tracking-[1em] uppercase text-[6px] sm:text-[10px] mb-10 font-extrabold italic">
               NBI Strategic Indenting
             </h2>
-            <h1 className="font-display text-3xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8">
+            <h1 className="font-display text-3xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.9] mb-8 italic">
               Sustainable <br />
               <span className="italic text-primary">Sourcing</span>
             </h1>
@@ -131,7 +129,7 @@ const Vision = () => {
             <SectionReveal delay={0.1}>
               <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded py-12">
                 <div className="w-0 h-0.5 bg-primary mb-8 transition-all duration-1500 group-hover:w-[100px]"></div>
-                <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6">
+                <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6 italic">
                   Vision Statement
                 </h3>
                 <p className="text-xl md:text-3xl font-light leading-relaxed italic font-display">
@@ -145,7 +143,7 @@ const Vision = () => {
             <SectionReveal delay={0.2}>
               <div className="bg-gradient-to-br from-white/3 to-white/1 backdrop-blur-[30px] border border-primary/10 rounded py-12 lg:mt-20">
                 <div className="w-0 h-0.5 bg-primary mb-8 transition-all duration-1500 group-hover:w-[100px]"></div>
-                <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6">
+                <h3 className="text-primary uppercase tracking-[0.4em] text-xs font-bold mb-6 italic">
                   Mission Statement
                 </h3>
                 <p className="text-muted-foreground leading-loose text-lg font-light italic">
@@ -183,10 +181,10 @@ const Vision = () => {
             }}
           ></div>
           <SectionReveal>
-            <h2 className="text-primary tracking-[0.5em] uppercase text-xs font-bold mb-6">
+            <h2 className="text-primary tracking-[0.5em] uppercase text-xs font-bold mb-6 italic">
               Future Strategic Plans
             </h2>
-            <h3 className="text-4xl md:text-6xl font-light mb-10 font-display">
+            <h3 className="text-4xl md:text-6xl font-light mb-10 font-display italic">
               The Leather Sector{" "}
               <span className="italic text-primary">Sourcing</span>
             </h3>
@@ -209,7 +207,7 @@ const Vision = () => {
                   <span className="text-primary text-4xl font-bold opacity-20 mb-4 block">
                     {plan.number}.
                   </span>
-                  <h4 className="text-2xl font-bold mb-4 uppercase tracking-tighter">
+                  <h4 className="text-2xl font-bold mb-4 uppercase tracking-tighter italic">
                     {plan.title}
                   </h4>
                   {plan.goal && (
@@ -257,10 +255,10 @@ const Vision = () => {
           ></div>
           <div className="max-w-4xl mx-auto px-6 text-center">
             <SectionReveal>
-              <h2 className="text-primary tracking-[0.5em] uppercase text-[10px] font-extrabold mb-10">
+              <h2 className="text-primary tracking-[0.5em] uppercase text-[10px] font-extrabold mb-10 italic">
                 Key Success Factor for Pakistan
               </h2>
-              <h3 className="text-4xl md:text-7xl font-light mb-12 uppercase leading-tight font-display">
+              <h3 className="text-4xl md:text-7xl font-light mb-12 uppercase leading-tight font-display italic">
                 Strategic <br />
                 <span className="italic text-primary">Sourcing</span>
               </h3>
