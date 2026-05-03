@@ -10,7 +10,7 @@ const strategicPlans = [
     goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
     action: "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
     // Visual: Sustainable, natural-toned leather processing
-    image: "https://pin.it/5d3zV59ku",
+    image: "https://pin.it/7nXeX8dWE",
   },
 {
     number: "02",
