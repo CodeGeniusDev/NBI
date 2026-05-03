@@ -10,7 +10,7 @@ const strategicPlans = [
     goal: "Connect Pakistani tanners with verified international suppliers of chrome-free tanning agents.",
     action: "Build strategic partnerships with global manufacturers of zeolite-based and aldehyde-free tanning agents, ensuring reliable supply chains for EU and US compliance.",
     // Visual: Sustainable, natural-toned leather processing
-    image: "https://pin.it/7nXeX8dWE",
+    image: "https://i.pinimg.com/736x/5a/a4/73/5aa4737195f7c6aaadd4787d7430f834.jpg",
   },
 {
     number: "02",
@@ -18,7 +18,7 @@ const strategicPlans = [
     goal: "Facilitate access to renewable, bio-based chemical alternatives from international suppliers.",
     action: "Establish indenting relationships with global producers of vegetable oil-derived fat liquors and softening agents, improving biodegradability for Pakistani textile processors.",
     // Visual: Green leaf in a lab setting (Sustainable Chemistry)
-    image: "https://pin.it/4jpzSpqxs",
+    image: "https://i.pinimg.com/736x/f7/92/3b/f7923bc4a904f5bb2ad8006a66fbc12f.jpg",
     reverse: true,
   },
   {
@@ -27,7 +27,7 @@ const strategicPlans = [
     description: "Address Pakistan's water scarcity through strategic sourcing of water-efficient technologies.",
     action: "Connect textile manufacturers with international suppliers of low-liquor chemicals that reduce water consumption by 30-40% in beamhouse processes.",
     // Visual: Clean industrial water filtration and efficiency
-    image: "https://pin.it/Q9LKERuUB",
+    image: "https://i.pinimg.com/1200x/59/9d/44/599d446afcae9262345d69dee3f522d4.jpg",
   },
   {
     number: "04",
@@ -35,7 +35,7 @@ const strategicPlans = [
     description: "Provide access to cutting-edge nano-technology finishing solutions for premium markets.",
     action: "Source and import nano-coatings, self-cleaning, anti-microbial, and UV-resistance technologies from specialized global manufacturers for automotive and footwear applications.",
     // Visual: Hydrophobic effect/Nano-tech on fabric surface
-    image: "https://pin.it/5Qt6L77IG",
+    image: "https://i.pinimg.com/1200x/95/25/a5/9525a54be02357af74a878a6420d1ef3.jpg",
     reverse: true,
   },
   {
@@ -44,7 +44,7 @@ const strategicPlans = [
     goal: "Connect Pakistani industry with global circular economy solution providers.",
     action: "Establish indenting agreements with international suppliers of enzymes and chemical processes for waste valorization, enabling collagen and protein recovery from leather waste.",
     // Visual: Abstract concept of recycling and resource loops
-    image: "https://pin.it/4UhfXnWW1",
+    image: "https://i.pinimg.com/1200x/7f/ac/88/7fac88cb509a67348a7b82c0c161067a.jpg",
   },
   {
     number: "06",
@@ -52,7 +52,7 @@ const strategicPlans = [
     goal: "Streamline market access through digital compliance solutions.",
     action: "Partner with international testing facilities and digital platforms to provide ZDHC Gateway and LWG certification support, ensuring products are 'Market-Ready' for global exports.",
     // Visual: High-tech digital testing and quality control
-    image: "https://pin.it/7sC9D1XJ8",
+    image: "https://i.pinimg.com/736x/1e/32/88/1e328889c89a24e416f10df3ad12e912.jpg",
     reverse: true,
   },
 ];
